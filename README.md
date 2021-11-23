@@ -26,7 +26,7 @@ these from Uniprot. I've written simple bash script to help download the ones
 that we commonly use,
 [`scripts/download-fasta.sh`](scripts/download-fasta.sh):
 
-``` sh
+```
 download-fasta.sh [-h|i|t|c] SPECIES
 
 Download a FASTA file from UniProt.
@@ -49,7 +49,7 @@ Ouput
 Note that we typically do not want to use the `-i` option. This will 
 download a file with the following naming scheme:
 
-``` sh
+```
 uniprot_{SPECIES}_{sp|sp-tr}_{canonical|isoforms}_{YYYY-MM-DD}{_crap|}.fasta
 ```
 
